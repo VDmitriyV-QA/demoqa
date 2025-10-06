@@ -33,3 +33,6 @@ class WebElement:
 
     def check_count_elements(self, count):
         return len(self.find_elements()) == count
+
+    def send_keys(self, text: str):
+        self.find_element().send_keys(text)
