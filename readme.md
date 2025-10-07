@@ -55,3 +55,34 @@
 1. **Установите зависимости:**
 ```bash
 pip install -r requirements.txt
+
+# Домашнее задание №10 - Автоматизация тестирования с Selenium
+
+Этот проект содержит автоматизированные тесты для веб-сайта DemoQA, написанные на Python с использованием Selenium WebDriver.
+
+
+## Описание тестов
+
+### 1. test_text_box.py
+- Переход на страницу Text Box
+- Заполнение полей Full Name и Current Address
+- Проверка отображения введенных данных после отправки формы
+
+### 2. test_login_form_validate.py  
+- Проверка плейсхолдеров полей First Name, Last Name, Email
+- Проверка атрибута pattern у поля Email
+- Проверка валидации пустой формы
+
+### 3. test_login_form.py
+- Заполнение полей State и City в форме Practice Form
+
+## Требования
+
+- Python 3.7+
+- Chrome браузер
+- ChromeDriver (должен быть в PATH)
+
+## Установка зависимостей
+
+```bash
+pip install selenium pytest
