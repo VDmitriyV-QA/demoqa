@@ -86,3 +86,7 @@ pip install -r requirements.txt
 
 ```bash
 pip install selenium pytest
+
+# Домашнее задание №10-11 - Автоматизация тестирования с Selenium
+
+Этот проект содержит автоматизированные тесты для веб-сайта DemoQA, написанные на Python с использованием Selenium WebDriver.
